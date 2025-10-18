@@ -99,3 +99,25 @@ body {
     outline: none;
     border: none;
 }
+@media (max-width:600px) {
+  .main{
+    height: 30%;
+    width: 75%;
+  }
+  h2{
+    font-size: 55px;
+  }
+  .time{
+    font-size: 55px;
+  }
+  .btn{
+    margin-top: 2vh;
+  }
+  .btn button {
+  height: 5vh;
+  width: 20vw;
+  font-size: 18px;
+  }
+}
+
+
