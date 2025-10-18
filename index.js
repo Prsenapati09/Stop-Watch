@@ -18,11 +18,12 @@ start.addEventListener('click',()=>{
                 hour++
             }
         }
-        if (second < 10) {
-            second="0"+second
-        }
+        let hr = hour <10 ? "0"+hour : hour
+        let min = minute <10 ? "0"+minute : minute
+        let sec = second <10 ? "0"+second : second
+
         
-        time.textContent=`${hour}:${minute}:${second}`
+        time.textContent=`${hr}:${min}:${sec}`
     },1000)
 })
 
@@ -32,3 +33,4 @@ pause.addEventListener('click',()=>{
 Reset.addEventListener('click',()=>{
     time.textContent=`00:00:00`
 })
+
