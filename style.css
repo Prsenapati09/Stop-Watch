@@ -101,7 +101,7 @@ body {
 }
 @media (max-width:600px) {
   .main{
-    height: 30%;
+    height: 28%;
     width: 75%;
   }
   h2{
@@ -111,7 +111,7 @@ body {
     font-size: 35px;
   }
   .btn{
-    margin-top: 1.5vh;
+    margin-top: 2vh;
   }
   .btn button {
   height: 5vh;
@@ -119,5 +119,6 @@ body {
   font-size: 18px;
   }
 }
+
 
 
