@@ -105,13 +105,13 @@ body {
     width: 75%;
   }
   h2{
-    font-size: 55px;
+    font-size: 45px;
   }
   .time{
-    font-size: 55px;
+    font-size: 35px;
   }
   .btn{
-    margin-top: 2vh;
+    margin-top: 1.5vh;
   }
   .btn button {
   height: 5vh;
